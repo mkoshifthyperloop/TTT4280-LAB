@@ -42,6 +42,7 @@ plt.title("Time domain signal")
 plt.xlabel("Time [us]")
 plt.ylabel("Voltage")
 plt.plot(t, data)
+plt.legend(["Channel 1", "Channel 2", "Channel 3", "Channel 4", "Channel 5"])
 
 plt.subplot(2, 1, 2)
 plt.title("Power spectrum of signal")
